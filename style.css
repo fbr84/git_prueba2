@@ -1,0 +1,23 @@
+:root {
+    --colorPrimario: #ff0000ea;
+    --colorSecundario: #ddc690;
+    --colorSecundarioAlt: #f0c069;
+    --colorNegro: #1B0317;
+    --colorBlanco: #FFFFFF;
+    font-family: 'Odibee Sans', cursive;
+}
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+* , *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--colorSecundario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
