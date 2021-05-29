@@ -1,7 +1,7 @@
 :root {
     --colorPrimario: #ff0000ea;
     --colorSecundario: #ddc690;
-    --colorSecundarioAlt: #f0c069;
+    --colorSecundarioAlt: #ffc70fe8;
     --colorNegro: #1B0317;
     --colorBlanco: #FFFFFF;
     font-family: 'Odibee Sans', cursive;
@@ -20,4 +20,15 @@ body {
     background-color: var(--colorSecundario);
     font-size: 1.6rem;
     line-height: 1.5;
+}
+.barra {
+    background-color: var(--colorPrimario);
+    text-align: center;
+    font-size: 5rem;
+}
+.pie {
+    background-color: var(--colorPrimario);
+    text-align: center;
+    font-size: 2.5rem;
+    
 }
