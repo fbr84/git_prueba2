@@ -4,7 +4,7 @@
     --colorSecundarioAlt: #ffc70fe8;
     --colorNegro: #1B0317;
     --colorBlanco: #FFFFFF;
-    font-family: 'Odibee Sans', cursive;
+    
 }
 
 
@@ -17,18 +17,46 @@ html {
 }
 
 body {
+    font-size: 16px;
     background-color: var(--colorSecundario);
-    font-size: 1.6rem;
     line-height: 1.5;
+    font-family: 'Odibee Sans', cursive;
+    
 }
-.barra {
+.encabezado {
     background-color: var(--colorPrimario);
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
+    padding:1rem;
 }
 .pie {
     background-color: var(--colorPrimario);
     text-align: center;
     font-size: 2.5rem;
+    padding: 1rem;
+    border: solid black 0.2rem;
+}
+
+span {
+    font-size: 1rem;
+    color:var(--colorBlanco);
     
 }
+
+.contenedor {
+    background-color: var(--colorNegro);
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+}
+.contenedor a { 
+    color: var(--colorBlanco);
+    text-decoration: none;
+}
+.contenedor a:hover {
+    color:var(--colorSecundarioAlt)
+}
+
